@@ -58,8 +58,10 @@ export default function Home() {
             </nav>
             </div>
             <div className="flex items-center gap-2">
-              <Button variant="secondary">
-                Masuk
+              <Button variant="secondary" asChild>
+                <Link href="/login">
+                  Masuk
+                </Link>
               </Button>
               <Button className="relative overflow-hidden border border-black transition-all hover:text-black before:rounded-full before:border-box before:p-[0%] before:absolute before:z-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:z-0 before:h-0 before:bg-white before:transition-all before:duration-500 hover:before:left-1/2 before:translate-y-1/2 hover:before:p-[100%]"><span className="relative z-10">Daftar</span></Button>
             </div>
