@@ -9,6 +9,7 @@ import { Instagram } from "lucide-react"
 import React, { useEffect } from 'react';
 
 import Logo from "../assets/logo.svg";
+import LogoFooter from "../assets/logo-footer.svg";
 import ImgHero from "../public/static/assets/nathan-dumlao-5BB_atDT4oA-unsplash.jpg"
 
 export default function Home() {
@@ -31,7 +32,6 @@ export default function Home() {
               style={{ width: '100%', height: 'auto' }}
               alt="logo"
               />
-              <span className="sr-only">Acme Inc</span>
             </Link>
             <nav className="hidden md:flex gap-4">
               <Link
@@ -58,10 +58,10 @@ export default function Home() {
             </nav>
             </div>
             <div className="flex items-center gap-2">
-              <Button variant="secondary" size="sm">
+              <Button variant="secondary">
                 Masuk
               </Button>
-              <Button size="sm">Daftar</Button>
+              <Button className="relative overflow-hidden border border-black transition-all hover:text-black before:rounded-full before:border-box before:p-[0%] before:absolute before:z-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:z-0 before:h-0 before:bg-white before:transition-all before:duration-500 hover:before:left-1/2 before:translate-y-1/2 hover:before:p-[100%]"><span className="relative z-10">Daftar</span></Button>
             </div>
           </div>
         </div>
@@ -112,6 +112,45 @@ export default function Home() {
 
       <div className="w-full max-w-7xl mx-auto px-4 my-48">
         <div className="w-full mb-12">
+          <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Semua yang kamu butuhin ada disini</h2>
+          <div>Kita sediain beragam fitur biar acara kamu makin spesial.</div>
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <div className="bg-[#F7E328] p-4 rounded-lg col-span-2">
+              <div className="font-semibold">1.</div>
+              <Large>Free 6 bulan masa aktif undangan</Large>
+              <div>Kamu juga bisa tambahin masa aktif undangan jika butuh lebih dari 6 bulan. Ada harga spesial buat kamu.</div>
+          </div>
+          <div className="bg-muted p-4 rounded-lg">
+              <div className="font-semibold">2.</div>
+              <Large>Bebas pilih path untuk undangan websitemu</Large>
+              <div>Tentukan path terbaikmu dengan menggunakan domain kefistory (misalnya kefistory.id/romeoandjuliet). Path pilihanmu bisa digunakan selama masih tersedia.</div>
+          </div>
+          <div className="bg-black text-white p-4 rounded-lg">
+              <div className="font-semibold">3.</div>
+              <Large>Akses sistem CMS milik Kefi Story semaunya</Large>
+              <div>Atur sendiri konten teks undanganmu kapanpun dan dimanapun kamu berada. Kamu bisa ubah informasi undanganmu bahkan sedetik sebelum acara! Tanpa nunggu admin yang urus!</div>
+          </div>
+          <div className="bg-[#B5D2FF] p-4 rounded-lg col-span-2">
+              <div className="font-semibold">4.</div>
+              <Large>Sebar undanganmu dengan sekali klik</Large>
+              <div>Kirim link undanganmu ke kerabat/keluarga dengan sekali klik via WhatsApp atau aplikasi favorit kamu lainnya.</div>
+          </div>
+          <div className="bg-muted p-4 rounded-lg col-span-2">
+              <div className="font-semibold">5.</div>
+              <Large>Cantumin lokasi acaramu</Large>
+              <div>Tamu undanganmu cuma perlu sekali klik untuk mendapatkan arah ke lokasi acaramu via Google Maps.</div>
+          </div>
+          <div className="bg-black text-white p-4 rounded-lg">
+              <div className="font-semibold">6.</div>
+              <Large>Download data terupdate tamu undangan kamu</Large>
+              <div>Daftar nama tamu, reservasi kehadiran, dan semua kolom ucapan bisa kamu download kapanpun kamu mau, tanpa harus nunggu admin yang kirim data paling update!</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full max-w-7xl mx-auto px-4 my-48">
+        <div className="w-full mb-12">
           <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Pilih paket sesuai kebutuhan kamu</h2>
           <div>Kita udah sediain beragam design blablablabla</div>
         </div>
@@ -120,7 +159,7 @@ export default function Home() {
             <div className="mb-4">
               <Large>Free Trial</Large>
               <H2 className="my-4">Gratis</H2>
-              <Button className="w-full">Beli</Button>
+              <Button className="w-full relative overflow-hidden border border-black transition-all hover:text-black before:rounded-full before:border-box before:p-[0%] before:absolute before:z-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:z-0 before:h-0 before:bg-white before:transition-all before:duration-500 hover:before:left-1/2 before:translate-y-1/2 hover:before:p-[100%]"><span className="relative z-10">Beli</span></Button>
             </div>
             <ul className="flex flex-col gap-2">
               <li>Design template</li>
@@ -139,7 +178,7 @@ export default function Home() {
             <div className="mb-4">
               <Large>🌙 Lunar</Large>
               <H2 className="my-4">Rp99.000</H2>
-              <Button className="w-full">Beli</Button>
+              <Button className="w-full relative overflow-hidden border border-black transition-all hover:text-black before:rounded-full before:border-box before:p-[0%] before:absolute before:z-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:z-0 before:h-0 before:bg-white before:transition-all before:duration-500 hover:before:left-1/2 before:translate-y-1/2 hover:before:p-[100%]"><span className="relative z-10">Beli</span></Button>
             </div>
             <ul className="flex flex-col gap-2">
               <li>Design template</li>
@@ -158,7 +197,7 @@ export default function Home() {
             <div className="mb-4">
               <Large>✨ Stellar</Large>
               <H2 className="my-4">Rp149.000</H2>
-              <Button className="w-full">Beli</Button>
+              <Button className="w-full relative overflow-hidden border border-black transition-all hover:text-black before:rounded-full before:border-box before:p-[0%] before:absolute before:z-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:z-0 before:h-0 before:bg-white before:transition-all before:duration-500 hover:before:left-1/2 before:translate-y-1/2 hover:before:p-[100%]"><span className="relative z-10">Beli</span></Button>
             </div>
             <ul className="flex flex-col gap-2">
               <li>Design template</li>
@@ -179,7 +218,14 @@ export default function Home() {
       <footer className="m-2 px-16 py-8 bg-black rounded-lg text-white">
         <div className="grid grid-cols-6 gap-8">
           <div className="col-span-2 flex flex-col gap-8">
-            {/* <LogoWhite className=""/> */}
+            <Image 
+              priority
+              src={ LogoFooter }
+              height={0}
+              width={0}
+              style={{ height: '42px' }}
+              alt="logo"
+            />
             <div>
               Letjen S. Parman St No.Kavling 28, North Tanjung Duren, Grogol petamburan, West Jakarta City, Jakarta 11470
             </div>
