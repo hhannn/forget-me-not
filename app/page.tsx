@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div className="columns-4">
           {designs.map((designs, index) => (
-            <div className="rounded-lg">
+            <div className="rounded-lg" key={index}>
               <Image className="object-cover rounded-lg"
               unoptimized
               width={0}
@@ -92,9 +92,8 @@ export default function Home() {
               style={{ width: '100%', height: 'auto' }}
               src="/invitation test.png"
               alt="new york"
-              key={index}
               />
-              <Button className="w-full" key={index}>{designs}</Button>
+              <Button className="w-full">{designs}</Button>
             </div>
             ))}
         </div>
