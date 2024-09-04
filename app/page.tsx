@@ -35,11 +35,11 @@ export default function Home() {
             </Link>
             <nav className="hidden md:flex gap-4">
               <Link
-                href="#"
+                href="/dashboard-test"
                 className="font-medium flex items-center text-sm transition-colors hover:underline"
                 prefetch={false}
               >
-                Beranda
+                Dashboard Test
               </Link>
               <Link
                 href="#"
