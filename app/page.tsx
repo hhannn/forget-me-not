@@ -92,8 +92,9 @@ export default function Home() {
               style={{ width: '100%', height: 'auto' }}
               src="/invitation test.png"
               alt="new york"
+              key={index}
               />
-              <Button className="w-full">{designs}</Button>
+              <Button className="w-full" key={index}>{designs}</Button>
             </div>
             ))}
         </div>
