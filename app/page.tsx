@@ -80,7 +80,7 @@ export default function Home() {
             width={0}
             height={0}
             style={{ width: 'auto', height: '90vh' }}
-            src="/assets/nathan-dumlao-5BB_atDT4oA-unsplash.JPG"
+            src="/static/assets/nathan-dumlao-5BB_atDT4oA-unsplash.JPG"
             alt="Picture of the author"
           />
         </div>
