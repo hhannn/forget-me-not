@@ -9,6 +9,7 @@ import { Instagram } from "lucide-react"
 import React, { useEffect } from 'react';
 
 import Logo from "../assets/logo.svg";
+import ImgHero from "../public/static/assets/nathan-dumlao-5BB_atDT4oA-unsplash.jpg"
 
 export default function Home() {
   useEffect(() => {
@@ -80,7 +81,7 @@ export default function Home() {
             width={0}
             height={0}
             style={{ width: 'auto', height: '90vh' }}
-            src="/static/assets/nathan-dumlao-5BB_atDT4oA-unsplash.JPG"
+            src={ ImgHero }
             alt="Picture of the author"
           />
         </div>
