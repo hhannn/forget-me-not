@@ -174,7 +174,7 @@ export default function Home() {
               <li></li>
             </ul>
           </div>
-          <div className="flex-auto p-4 rounded-lg" style={{background: 'radial-gradient(83.24% 121.1% at 0.08% 100%, rgba(181, 210, 255, 0.40) 0%, rgba(181, 210, 255, 0.00) 100%), radial-gradient(83.44% 121.39% at 100% 0%, rgba(247, 227, 40, 0.40) 0%, rgba(247, 227, 40, 0.00) 100%), #FFF;'}}>
+          <div className="flex-auto p-4 rounded-lg" style={{background: 'radial-gradient(83.24% 121.1% at 0.08% 100%, rgba(181, 210, 255, 0.40) 0%, rgba(181, 210, 255, 0.00) 100%), radial-gradient(83.44% 121.39% at 100% 0%, rgba(247, 227, 40, 0.40) 0%, rgba(247, 227, 40, 0.00) 100%), #FFF'}}>
             <div className="mb-4">
               <Large>🌙 Lunar</Large>
               <H2 className="my-4">Rp99.000</H2>
